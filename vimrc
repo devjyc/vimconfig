@@ -46,6 +46,7 @@ Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Git Plugin
 Bundle 'tpope/vim-fugitive'
 Bundle 'klen/python-mode'
+Bundle 'Solarized'
 
 filetype plugin indent on     " required!
 
@@ -69,7 +70,11 @@ set expandtab
 set incsearch
 set printoptions=portrait:n,wrap:n,duplex:off
 set fileencodings=utf-8,euc-kr
+set cursorline
+
 colorscheme desert
+set background=dark
+"colorscheme solarized
 
 "==========================
 "= autocmd
@@ -116,10 +121,12 @@ nmap <C-\><C-]> :GtagsCursor<CR>
 "====================================================
 " <F3> 이전 정의로 이동 (SrcExpl 플러그인이 설정)
 " <F4> 다음 정의로 이동 (SrcExpl 플러그인이 설정)
+" <F8> 다음 파일
 map <F2> :NERDTreeToggle<CR>
 map <F3> :BufExplorer<cr>
 map <F4> :SrcExplToggle<CR>
 map <F5> :TlistToggle<CR>
+map <F8> :bn<CR>
 
 "=====  PageUP PageDown
 map <PageUp> <C-U><C-U>
