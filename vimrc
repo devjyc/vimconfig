@@ -165,7 +165,9 @@ nmap <C-n> :cn<CR>
 nmap <C-p> :cp<CR>
 nmap <C-\><C-]> :GtagsCursor<CR>
 
-
+"===== custom
+" cancel highlight
+nmap <SPACE> <SPACE>:noh<CR>
 
 "===== make
 let startdir = getcwd()
