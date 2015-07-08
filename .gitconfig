@@ -2,7 +2,8 @@
         email = nullrr@gmail.com
         name = null
 [core]
-        pager = cat 
+        pager = 'less -+F'
+#        pager = cat 
 #        autocrlf = false
 [push]
         default = simple
