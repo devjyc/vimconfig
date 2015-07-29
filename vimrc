@@ -42,11 +42,12 @@ Bundle 'https://github.com/dhruvasagar/vim-table-mode.git'
 Bundle 'The-NERD-Commenter'
 Bundle 'AutoComplPop'
 "Bottom Bar
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+"Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Git Plugin
 Bundle 'tpope/vim-fugitive'
 Bundle 'klen/python-mode'
 Bundle 'Solarized'
+Bundle 'https://github.com/Lokaltog/vim-powerline.git'
 
 filetype plugin indent on     " required!
 
